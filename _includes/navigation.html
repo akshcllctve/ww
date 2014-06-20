@@ -1,0 +1,40 @@
+<nav class="navbar navbar-inverse ziz" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+
+    <div class="collapse navbar-collapse ziz" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="{{ site.baseurl }}/">Home</a></li>
+        <li class="{% if page.url == '/about.html' %}active{% endif %}"><a href="{{ site.baseurl }}/about.html">About Me</a></li>
+      <li class="{% if page.url == '/contact.html' %}active{% endif %}"><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+     <li class="dropdown {% if page.categories contains 'services' %}active{% endif %}">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.baseurl }}/reflexology.html">Reflexology</a></li>
+            <li><a href="#">Reiki</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        <li class="{% if page.url == '/research.html' %}active{% endif %}"><a href="{{ site.baseurl }}/research.html">Research</a></li>
+        <li class="{% if page.url == '/shop.html' %}active{% endif %}"><a href="{{ site.baseurl }}/shop.html">Shop</a></li>
+        <li class="{% if page.url == '/links.html' %}active{% endif %}"><a href="{{ site.baseurl }}/links.html">Useful Links</a></li>
+          <li class="{% if page.url == '/blog.html' %}active{% endif %}"><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
+        
+      </ul>
+     
+    </div>
+  </div>
+</nav>

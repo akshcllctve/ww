@@ -1,0 +1,10 @@
+<h1 class="entry-title">
+
+{% if post.title %}
+    {{ post.title }}
+{% endif %}
+</h1>
+
+<div class="entry-content">{{ content }}{% include printfriendly.html %}
+	<br><a href="{{ relative }}{{ post.url }}#shareandcomment">Click to leave comments or share...</a> </div>
+
