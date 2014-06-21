@@ -1,5 +1,6 @@
 body {
   background-image: url('/img/feet2.jpg');
+  background-attachment: fixed;
   padding-top: 0px;
   color: #fee5c7;
 
@@ -468,4 +469,26 @@ text-decoration: none;
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+   color: #661414;
+}
+
+ul {
+  list-style-type: none;
+  padding:0; 
+  margin:0;
+  text-decoration: none;
+
+}
+
+li {
+  list-style-type: none;
+  padding:0; 
+  margin:0;
+    text-decoration: none;
+  
 }
