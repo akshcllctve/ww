@@ -8,16 +8,21 @@
         <link rel="stylesheet" href="/css/bootstrap.css">
          <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
          <link rel="stylesheet" href="/css/custom.css">
+         <link rel="shortcut icon" href="/favicon.ico" />
 
 
 
     </head>
-    <body>
+  
 
 {% include navigation.html %}
 
 {{ content }}
       <script src="{{ relative }}/js/jquery.js"></script>
       <script src="{{ relative }}/js/bootstrap.js"></script>
+         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js"></script>
+<script type="text/javascript"> $(document).ready(function(){ $("#contactForm").validate(); }); </script>
+
     </body>
 </html>
