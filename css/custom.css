@@ -590,6 +590,9 @@ color: #A63A3A;
 .mahogony {
 color: #2e0101;
 }
+.bloodt {
+  color: #292020;
+}
 
 .blood {
   background-color: #292020;
@@ -796,6 +799,7 @@ width: 100%;
  background-color: transparent;
   text-decoration: none;
 }
+
 
 .img-wide {
   width: 100%;
