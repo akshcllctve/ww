@@ -4,10 +4,10 @@ title:  Be Well
 categories: Articles
 ---
 
-<h1>Be Well</h1>
+<h1>Brand Everything</h1>
 
 
-<img class="img-responsive pull-left space" src="/img/chicken.jpg">
+<img class="img-responsive" src="/img/slimback.jpg">
 
 <p>A year ago in this space, I shared the documented benefits of reflexology, a popular modality. Originally trained as a scientist, for the past 10 years I have been practicing and teaching reflexology. </p><p>
 I was always interested in how it works. There are several theories and more than 50 books written on the subject. </p><p>
@@ -24,4 +24,3 @@ I invite you to experience it yourself. </p>
 
 
 
-</div>

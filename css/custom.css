@@ -7,6 +7,42 @@ body {
 
 }
 
+
+.social a {
+color: #ffefe5;
+text-decoration: none;
+}
+a {
+text-decoration: none;
+
+color: #ffefe5;
+}
+a {
+color: #ffefe5;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+
+color: #ffefe5;
+background-color: #fb036b!important;
+border-color: #fb036b!important;
+}
+a:focus {
+color: #ffefe5;
+text-decoration: none;
+background-color: #fb036b!important;
+border-color: #fb036b!important;
+}
+
+
+user agent stylesheeta:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+
 .navbar-default {
 background-color:  #ffefe5;
   border: none;
@@ -26,6 +62,92 @@ background-color:  #ffefe5;
 }
 .pattern {
   background-image: url('/img/pback.jpg');
+}
+.btn-pink {
+  padding: 3px;
+    color: #ffefe5;
+  display: inline-block;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 22px;
+     font-weight: 200;
+  line-height: 1.4;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #222;
+}
+
+.btn-pink:focus,
+.btn-pink:active:focus,
+.btn-pink.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn-pink:hover,
+.btn-pink:focus {
+  color: #ffefe5;
+  background-color: #fb036b;
+  text-decoration: none;
+}
+.btn-pink:active,
+.btn-pink.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btn-purple {
+  padding: 3px;
+    color: #ffefe5;
+  display: inline-block;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 22px;
+     font-weight: 200;
+  line-height: 1.4;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #222;
+}
+
+.btn-purple:focus,
+.btn-purple:active:focus,
+.btn-purple.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn-purple:hover,
+.btn-purple:focus {
+  color: #ffefe5;
+  background-color: #fc78a8;
+  text-decoration: none;
+}
+.btn-purple:active,
+.btn-purple.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 
@@ -85,10 +207,11 @@ background-color:  #ffefe5;
 
 .white {
      background-color: #ffefe5;
+     color: #222;
 }
 
 .seafoam {
-        background-color:rgba(0,255,186,0.5);
+         background-color:rgba(251,3,107,1);
 }
 
 .yellow {
@@ -96,6 +219,7 @@ background-color:  #ffefe5;
 }
 .white-font {
   color: #ffefe5;
+
 }
 
 
@@ -112,7 +236,10 @@ background-color: #fb036b;
   color: #5A26FF;
 }
 .purple-font {
-  color: #5a26ff;
+  color: #fc78a7;
+}
+.purple {
+  background-color: #fc78a7;
 }
 .red {
   background-color: #fe0427;
@@ -133,7 +260,7 @@ text-decoration: none;
 }
 
 .giant {
-  font-size: 88px;
+  font-size: 150px;
 }
 
 .lr-txt
@@ -202,6 +329,17 @@ h5,
   font-weight: 300;
 }
 
+.suxy {
+  font-size: 28px;
+  font-weight: 240;
+}
+.is {
+
+  font-size: 32px;
+  font-weight: 300;
+}
+
+
 
 h1,
 .h1 {
@@ -228,7 +366,7 @@ h3,
 
 h4,
 .h4 {
-    color: #fee5c7;
+
 
     font-size: 22px;
      font-weight: 200;
@@ -356,49 +494,6 @@ h6,
           box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
-.btn-peach {
-  padding: 3px;
-    color: #2f0202;
-  display: inline-block;
-  padding: 8px 30px;
-  margin: 5px;
-  font-size: 22px;
-     font-weight: 200;
-  line-height: 1.4;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  background-color: #ca754f;
-}
-
-.btn-peach:focus,
-.btn-peach:active:focus,
-.btn-peach.active:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-.btn-peach:hover,
-.btn-peach:focus {
-  color: #FA7373;
-  background-color: #444444;
-  text-decoration: none;
-}
-.btn-peach:active,
-.btn-peach.active {
-  background-image: none;
-  outline: 0;
-  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
-          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
-}
 
 
 .btn-umber {
@@ -698,6 +793,14 @@ color: #2e0101;
 
 }
 
+.padded-e {
+  padding-top: 65px;
+    padding-bottom: 65px;
+
+}
+
+
+
 .padded-sm {
   padding-top: 35px;
     padding-bottom: 100px;
@@ -750,7 +853,25 @@ li {
 
 
 @media only screen and (max-width: 767px) {
+.sux {
+  font-size: 18px;
+  font-weight: 200;
+}
 
+.suxy {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.giant {
+  font-size: 35px;
+}
+body {
+  background-color: #fb036b;
+    background-image: url('');
+
+
+}
    h1 {
       font-size: 25px;
    }
@@ -806,14 +927,14 @@ width: 100%;
 
 #link a { 
  
-    text-decoration: underline;
+    text-decoration: none;
   font-size: 18px;
 
-  color: #950cff;
+  color: #fb036b;
 
  }
 #link a:hover, a:focus { 
-   color: #510cff;
+   color: #fb036b;
  background-color: transparent;
   text-decoration: none;
 }
