@@ -1,4 +1,5 @@
-name: Your New Jekyll Site
+name: Primary Attraction
 markdown: redcarpet
 pygments: true
 baseurl: ""
+permalink: pretty

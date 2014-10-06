@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Be Well
-categories: Articles
+categories: Blog Articles
 ---
 
 <h1>Brand Everything</h1>

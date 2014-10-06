@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-description: Irina's Blog
+description: Primary Attraction Blog
 ---
 
 
@@ -12,7 +12,22 @@ description: Irina's Blog
 <div class="container-fluid white">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 padded-med">
+      
+      <div class="col-md-9 col-md-push-3 white padded-med">
+
+
+         {% for post in site.posts limit:1%}
+    
+           <li>
+                {{ post.content }}
+              <a href="{{ post.url }}#share">Click to share</a>
+              </li>
+              
+              
+                  {% endfor %}
+
+      </div>
+      <div class="col-md-3 col-md-pull-9 padded-med">
         <div class="blog-index">  
         <h2>Blog Archive</h2>
           <ul class="sux">
@@ -30,26 +45,16 @@ description: Irina's Blog
 
         </div>
       </div>
-      <div class="col-md-9 white padded-med">
-
-
-         {% for post in site.posts limit:1%}
-    
-           <li>
-                {{ post.content }}
-              
-              </li>
-              
-              
-                  {% endfor %}
-      </div>
     </div>
   </div>
 </div>
-<div class="signup">
-  <div class="container pink">
+{% include social.html %}
+
+  <div class="container-fluid purple">
+    <div class="container">
 {% include signup.html %}
 </div>
 </div>
+
 
 
