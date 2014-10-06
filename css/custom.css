@@ -22,14 +22,14 @@ color: #ffefe5;
 text-decoration: none;
 }
 
-a:hover {
+.social a:hover {
 text-decoration: none;
 
 color: #ffefe5;
 background-color: #fb036b!important;
 border-color: #fb036b!important;
 }
-a:focus {
+.social a:focus {
 color: #ffefe5;
 text-decoration: none;
 background-color: #fb036b!important;
@@ -59,6 +59,11 @@ background-color:  #ffefe5;
 {
   color:#ffefe5;
   background-color: #fb036b;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color:#ffefe5;
+  background-color: #fc78a8;
 }
 .pattern {
   background-image: url('/img/pback.jpg');
@@ -287,10 +292,7 @@ text-decoration: none;
 .navbar-brand {
   padding: 10px;
 }
-a:hover, a:focus { 
-  background-color: #410505;
-  color: #984e25;
-}
+
 .thumbnail {
 display: block;
 padding: 1px;
@@ -311,11 +313,7 @@ border-color: #fc001e;
 
 }
 
-.btn-success a:hover, a:focus  {
-color: #fff;
-background-color: #cb4646!important;
-border-color: #cb4646!important;
-}
+
 
 h5,
 .h5  {
