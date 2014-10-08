@@ -19,8 +19,9 @@ description: Primary Attraction Blog
          {% for post in site.posts limit:1%}
     
            <li>
+             <h1 class="posttitle">{{ post.title }}</h1>
                 {{ post.content }}
-              <a href="{{ post.url }}#share">Click to share</a>
+              <a href="{{ post.url }}#share" class="black-font">Click to share and comment</a>
               </li>
               
               
@@ -29,7 +30,7 @@ description: Primary Attraction Blog
       </div>
       <div class="col-md-3 col-md-pull-9 padded-med">
         <div class="blog-index">  
-        <h2>Blog Archive</h2>
+        <h3>Blog Archive</h3>
           <ul class="sux">
           {% for post in site.posts %}
             <li class>
