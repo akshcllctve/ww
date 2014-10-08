@@ -13,7 +13,7 @@ At Primary Attraction, we build websites with the best tools available.  Our goa
 
 All our websites are built from scratch, static and responsive.  That means they're custom designed, super secure, fast to load and capable of handling lots of traffic(important for when your marketing campaign goes viral!), and look good on all screens including phones and ipads.
 
-We've are really into software, and are constantly trying out new tools to make sure we are using the best available platforms and services to build our sites and manage marketing campaigns.  Today we are going to share the tools used to make primaryattraction.com - the same ones we use to make all our clients sites.  Right now, to us, these are the best of the best.
+We're really into software, and are constantly trying out new tools to make sure we are using the best available platforms and services to build our sites and manage marketing campaigns.  Today we are going to share the tools used to make primaryattraction.com - the same ones we use to make all our clients sites.  Right now, to us, these are the best of the best.
 
 ####**Tools and services we use and love for making websites.**
 
