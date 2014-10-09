@@ -41,7 +41,7 @@ Once the site is published, we use [Google Analytics](http://www.google.com/anal
 
 At this point we also like to generate a brand **style guide** using [Stylify Me](http://stylifyme.com).  Now we have a handy reference for font styles and colors!
 
-That's everything we used when we building this website.  Thanks to everyone out there working hard developing these amazing tools and services.  With these resources, there's never been a better(or funner!) time to build a business online.  We truly love making websites, and we'd love to make yours. If you want a world class platform to build your business on [get in touch](http://primaryattraction.com/contact/).
+That's everything we used to build this website.  Thanks to everyone out there working hard developing these amazing tools and services.  With these resources, there's never been a better(or more fun!) time to build a business online.  We truly love making websites, and we'd love to make yours. If you want a world class platform to build your business on [get in touch](http://primaryattraction.com/contact/).
 
 
 
