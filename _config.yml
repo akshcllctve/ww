@@ -3,3 +3,5 @@ markdown: redcarpet
 pygments: true
 baseurl: ""
 permalink: pretty
+copyright: 2014
+
