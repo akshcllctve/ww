@@ -41,7 +41,24 @@
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-7 col-md-push-3 white padded-med">
- <h1 class="posttitle">{{ page.title }}</h1>
+ <h1 class="posttitle title">{{ page.title }}</h1>
+  <small>Published {{ page.date | date: '%B %d, %Y' }} by Wendy Sorquist</small>
+
+
+{% for tags in page.tags %}
+  <a href="{{ site.baseurl }}/tag/{{ tags }}/"><span class="lead">#{{ tags }}</span></a>
+  {% endfor %}
+            
+            
+              
+              
+    
+              
+              
+              
+
+    
+
 
          {{ content }}
 <div id="share">
@@ -72,7 +89,7 @@
 {% include signup.html %}
 </div>
 </div>
-
+{% include footer.html %}
     
      
 
@@ -81,7 +98,7 @@
 
       <script src="{{ relative }}/js/jquery.js"></script>
       <script src="{{ relative }}/js/bootstrap.js"></script>
-      
+
  <script type="text/javascript" src="{{ site.baseurl }}/js/instafeed.js"></script>
  {% include instafeed.html %}
     </body>

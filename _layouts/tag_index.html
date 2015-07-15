@@ -1,0 +1,70 @@
+---
+layout: default
+title: tag index
+description: tag index
+---
+<div class="container-fluid white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-7 col-md-push-3 white padded-med">
+ 
+<p class="lead title">{{page.title}}</lead>
+
+
+
+
+<ul>
+  {% for post in site.posts %}
+  {% for tag in post.tags %}
+  {% if tag == page.tag %}
+
+
+  <li>
+
+   <a href="{{ post.url }}"><h1 class="title">{{ post.title }}</h1></a><small>Published {{ post.date | date: '%B %d, %Y' }} by Wendy Sorquist</small><li>
+
+{% for tags in post.tags %}
+  <a href="{{ site.baseurl }}/tag/{{ tags }}/"><span class="lead">#{{ tags }}</span></a>
+  {% endfor %}
+  
+       <a href="{{ post.url }}"> {{ post.excerpt }}</a>
+
+  <a href="{{ post.url }}">read more >></a>
+  <br><img src ="/img/tl.jpg" class="img-responsive">
+
+  </li>
+
+
+
+
+  
+
+</ul>
+
+
+      {% endif %}
+  {% endfor %}
+  {% endfor %}          
+              
+
+    
+
+
+       
+
+      </div>
+
+      <div class="col-md-3 col-md-pull-7 padded-med">
+              {% include sidebar.html %}
+     
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% include footer.html %}

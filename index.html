@@ -2,13 +2,11 @@
 layout: default
 title: Blog
 description: Primary Attraction Blog
-tags:
-- breakfast
-- goop
 ---
 
 
 
+ 
 
 
  
@@ -20,9 +18,16 @@ tags:
 
 
          {% for post in site.posts limit:1%}
+         
     
            <li>
-             <h1 class="posttitle">{{ post.title }}</h1>
+             <h1 class="posttitle title">{{ post.title }}</h1>
+              <small>Published {{ post.date | date: '%B %d, %Y' }} by Wendy Sorquist</small>
+
+
+  {% for tags in post.tags %}
+  <a href="{{ site.baseurl }}/tag/{{ tags }}/"><span class="lead">#{{ tags }}</span></a>
+  {% endfor %}
                 {{ post.content }}
               <a href="{{ post.url }}#share" class="black-font">Click to share and comment</a>
               </li>
@@ -49,6 +54,6 @@ tags:
 {% include signup.html %}
 </div>
 </div>
-
+{% include footer.html %}
 
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  GOOP Breakfast
-categories: Blog Articles
-permalink: making-primary-attraction.com/
+categories: Recipe
+tags: breakfast goop
 ---
 
 
