@@ -3,13 +3,35 @@ body {
   background-attachment: fixed;
     background-size: cover;
   padding-top: 0px;
-  color: #ffefe5;
+  color: #ffffff;
+font-family: roboto;
+}
 
+
+#instafeed {
+  margin-left: -3px;
+  margin-right: -3px;
+}
+
+#instafeed a {
+  overflow: hidden;
+  float: left;
+  margin: 3px;
+  border-radius: 2px;
+  overflow: hidden;
+  width: calc(100% / 2 - 6px);
+}
+
+#instafeed a img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 !important;
 }
 
 
 .social a {
-color: #ffefe5;
+color: #ffffff;
 text-decoration: none;
 }
 
@@ -17,15 +39,15 @@ text-decoration: none;
 .social a:hover {
 text-decoration: none;
 
-color: #ffefe5;
-background-color: #fb036b!important;
-border-color: #fb036b!important;
+color: #ffffff;
+background-color: #f5fb15!important;
+border-color: #f5fb15!important;
 }
 .social a:focus {
-color: #ffefe5;
+color: #ffffff;
 text-decoration: none;
-background-color: #fb036b!important;
-border-color: #fb036b!important;
+background-color: #f5fb15!important;
+border-color: #f5fb15!important;
 }
 
 
@@ -36,25 +58,25 @@ cursor: auto;
 }
 
 .navbar-default {
-background-color:  #ffefe5;
+background-color:  #ffffff;
   border: none;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #fb036b;
+  color: #f5fb15;
 }
 .navbar-default .navbar-brand {
-  color:#fb036b;
+  color:#f5fb15;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
 {
-  color:#ffefe5;
-  background-color: #fb036b;
+  color:#ffffff;
+  background-color: #f5fb15;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color:#ffefe5;
+  color:#ffffff;
   background-color: #fc78a8;
 }
 .pattern {
@@ -62,7 +84,7 @@ background-color:  #ffefe5;
 }
 .btn-pink {
   padding: 3px;
-    color: #ffefe5;
+    color: #ffffff;
   display: inline-block;
   padding: 8px 30px;
   margin: 5px;
@@ -92,8 +114,8 @@ background-color:  #ffefe5;
 }
 .btn-pink:hover,
 .btn-pink:focus {
-  color: #ffefe5;
-  background-color: #fb036b;
+  color: #ffffff;
+  background-color: #f5fb15;
   text-decoration: none;
 }
 .btn-pink:active,
@@ -105,7 +127,7 @@ background-color:  #ffefe5;
 }
 .btn-purple {
   padding: 3px;
-    color: #ffefe5;
+    color: #ffffff;
   display: inline-block;
   padding: 8px 30px;
   margin: 5px;
@@ -135,7 +157,7 @@ background-color:  #ffefe5;
 }
 .btn-purple:hover,
 .btn-purple:focus {
-  color: #ffefe5;
+  color: #ffffff;
   background-color: #fc78a8;
   text-decoration: none;
 }
@@ -217,7 +239,7 @@ color: #222;
 /* container and font styling */
 
 .white {
-     background-color: #ffefe5;
+     background-color: #ffffff;
      color: #222;
 }
 
@@ -234,7 +256,7 @@ color: #222;
       background-color:rgba(251,3,107,0.5);
 }
 .white-font {
-  color: #ffefe5;
+  color: #ffffff;
 
 }
 
@@ -243,7 +265,7 @@ color: #222;
   color: #000;
 }
 .pink {
-background-color: #fb036b;
+background-color: #f5fb15;
 }
 .pink-font {
   color:#ff0056;
@@ -252,14 +274,14 @@ background-color: #fb036b;
   color: #5A26FF;
 }
 .purple-font {
-  color: #fc78a7;
+  color: #a7a7a7;
 }
 
 .black-font {
   color: #222;
 }
 .purple {
-  background-color: #fc78a7;
+  background-color: #a7a7a7;
 }
 .red {
   background-color: #fe0427;
@@ -363,7 +385,7 @@ h6,
 
 a {
 text-decoration: none;
-font-size: 18px;
+font-size: 14px;
 }
 
 
@@ -445,7 +467,7 @@ p {
 .social {
   
   text-align: center;
-  padding: 40px;
+  padding: 15px;
 
 
 }
@@ -496,7 +518,7 @@ li {
   font-size: 35px;
 }
 body {
-  background-color: #fb036b;
+  background-color: #f5fb15;
     background-image: url('');
 
 
@@ -552,11 +574,11 @@ width: 100%;
     text-decoration: none;
   font-size: 18px;
 
-  color: #fb036b;
+  color: #f5fb15;
 
  }
 #link a:hover, a:focus { 
-   color: #fb036b;
+   color: #f5fb15;
  background-color: transparent;
   text-decoration: none;
 }

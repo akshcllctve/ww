@@ -8,38 +8,29 @@
         <link rel="stylesheet" href="/css/bootstrap.css">
          <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
          <link rel="stylesheet" href="/css/custom.css">
-         <link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
 
 {% include analytics.html %}
     </head>
     <body>
 
-<div class="container-fluid white">
-<div class="container hidden-xs">
-  <div class="row">
-    <div class="col-sm-4">
-<img src="/img/pnuts3.jpg" class="img-responsive">
-</div>
-<div class="col-sm-8"> {% include navigation.html %} </div>
-
-</div>
-
-</div>
-
-
-<div class="container visible-xs">
-  <div class="row">
-    <div class="col-xs-6">
-<img src="/img/pnuts3.jpg" class="img-responsive">
-</div>
-<div class="col-xs-6"> {% include navigation.html %} </div>
-
-</div>
-
-</div>
-</div>
-</div>
 
 
 
@@ -48,8 +39,8 @@
 <div class="container-fluid white">
   <div class="container">
     <div class="row">
-      
-      <div class="col-md-9 col-md-push-3 white padded-med">
+      <div class="col-md-1"></div>
+      <div class="col-md-7 col-md-push-3 white padded-med">
  <h1 class="posttitle">{{ page.title }}</h1>
 
          {{ content }}
@@ -61,17 +52,8 @@
 
       </div>
 
-      <div class="col-md-3 col-md-pull-9 padded-med">
-        <div class="blog-index">  
-        <h3>Blog Archive</h3>
-          <ul class="sux">
-          {% for post in site.posts %}
-            <li class>
-              <a href="{{ post.url }}" class="purple-font">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-    
+      <div class="col-md-3 col-md-pull-7 padded-med">
+              {% include sidebar.html %}
      
 
 
@@ -82,9 +64,11 @@
     </div>
   </div>
 </div>
-{% include social.html %}
+
   <div class="container-fluid purple">
     <div class="container">
+           <div class="col-md-1"></div>
+
 {% include signup.html %}
 </div>
 </div>
@@ -97,5 +81,8 @@
 
       <script src="{{ relative }}/js/jquery.js"></script>
       <script src="{{ relative }}/js/bootstrap.js"></script>
+      
+ <script type="text/javascript" src="{{ site.baseurl }}/js/instafeed.js"></script>
+ {% include instafeed.html %}
     </body>
 </html>

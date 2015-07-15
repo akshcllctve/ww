@@ -1,148 +1,54 @@
 ---
 layout: default
-title: Home
-description: Primary Attraction is a full service creative agency specializing in brand design and development and implementing marketing strategies and tools that get results.
+title: Blog
+description: Primary Attraction Blog
+tags:
+- breakfast
+- goop
 ---
 
 
 
 
 
-
-
-<div class="container-fluid white padded-big">
+ 
+<div class="container-fluid white">
   <div class="container">
     <div class="row">
+            <div class="col-md-1"></div>
+      <div class="col-md-7 col-md-push-3 white padded-med">
+
+
+         {% for post in site.posts limit:1%}
     
+           <li>
+             <h1 class="posttitle">{{ post.title }}</h1>
+                {{ post.content }}
+              <a href="{{ post.url }}#share" class="black-font">Click to share and comment</a>
+              </li>
+              
+              
+                  {% endfor %}
 
-      <div class="col-md-12">
-       <h1><span class="pink-font"> <strong></strong>We architect dream businesses</h2></span>
-       <p class="lead"><span class="pink-font">We help you develop perfectly designed products and brands and effectively and affordably connect to your audience. </p></span>
-          </div>
+      </div>
+      <div class="col-md-3 col-md-pull-7 padded-med">
+      {% include sidebar.html %}
+
+
+
+        </div>
       </div>
     </div>
-  </div>
-
- <div class="container-fluid yellow padded-big">
-  <div class="container">
-<h2><span class="white-font">Together, we will</span></h2>
-<ul>
-  <li class="sux"><i class="fa fa-check-square-o"></i> Identify your primary focus</li>
-  <li class="sux"><i class="fa fa-check-square-o"></i> Develop your products and brand</li>
- <li class="sux"><i class="fa fa-check-square-o"></i> Attract clients and customers</li>
-</ul>
-
-
-          </div>
-      </div>
-
-
-
-<div class="container-fluid white padded-big">
-  <div class="container">
-    <div class="row">
-    
-
-      <div class="col-md-12">
-       <h1><span class="pink-font"> <strong></strong>We are a full service creative agency</h2></span>
-       <p class="lead"><span class="pink-font">We build world class platforms and use cutting edge tools to express your brand and develop and manage your business. </p></span>
-          </div>
-      </div>
-    </div>
-  </div>
-
- <div class="container-fluid yellow padded-big">
-  <div class="container">
-<h2><span class="white-font">The only marketing partner you need. We handle it all.</span></h2>
-<ul>
-  <li class="sux"><i class="fa fa-check-square-o"></i> Brand Design</li>
-    <li class="sux"><i class="fa fa-check-square-o"></i> Product Development</li>
-      <li class="sux"><i class="fa fa-check-square-o"></i> Website Development</li>
-        <li class="sux"><i class="fa fa-check-square-o"></i> Ecommerce</li>
-            <li class="sux"><i class="fa fa-check-square-o"></i> CRM</li>
-          <li class="sux"><i class="fa fa-check-square-o"></i> Photography</li>
-          <li class="sux"><i class="fa fa-check-square-o"></i> Videos</li>
-            <li class="sux"><i class="fa fa-check-square-o"></i> Blogging</li>
-              <li class="sux"><i class="fa fa-check-square-o"></i> Social Media</li>
-  <li class="sux"><i class="fa fa-check-square-o"></i> Marketing Strategy</li>
- <li class="sux"><i class="fa fa-check-square-o"></i> Marketing Campaigns</li>
-  <li class="sux"><i class="fa fa-check-square-o"></i> PR</li>
-   <li class="sux"><i class="fa fa-check-square-o"></i> Advertising</li>
-    <li class="sux"><i class="fa fa-check-square-o"></i> Print Materials</li>
-     <li class="sux"><i class="fa fa-check-square-o"></i> SEO</li>
-          <li class="sux"><i class="fa fa-check-square-o"></i> Newsletters</li>
-                <li class="sux"><i class="fa fa-check-square-o"></i> Analyze and Measure</li>
-    
-</ul>
-
-
-          </div>
-      </div>
-<div class="container-fluid white padded-big">
-  <div class="container">
-    <div class="row">
-    
-
-      <div class="col-md-12">
-       <h3><span class="pink-font"> <strong></strong>Everything working in harmony to generate results </h3></span>
-   
-          </div>
-      </div>
-    </div>
-  </div>
- <div class="container-fluid yellow padded-big">
-  <div class="container">
-
-  <img src="/img/results.png" class="img-responsive">
-
-  </div>
-     </div>
-
-
-
-<div class="container-fluid white padded-med visible-xs">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12"> 
-      
-       <span class="pink-font big"><i class="fa fa-phone-square fa-lg"> <strong>6122174112 </strong></i> </span><span class="black-font sux"><br>
-      <i class="fa fa-envelope-o fa-lg" alt="visit us on twitter"></i> hello@primaryattraction.com </strong></h4></span>
-      
-      </div>
-
-    </div>
-    </div>
-</div> 
-<div class="container-fluid white padded-big  hidden-xs">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12"> 
-      
-       <span class="pink-font sux"><i class="fa fa-phone-square fa-lg"> <strong>6122174112 </strong></i> </span><span class="black-font big">
-      <i class="fa fa-envelope-o fa-lg" alt="visit us on twitter"></i> hello@primaryattraction.com </strong></h4></span>
-      
-      </div>
-
-    </div>
-    </div>
-</div> 
-
-{% include social.html %}
-
-
-  <div class="container-fluid purple">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-   {% include signup.html %}
-   </div>
- </div>
   </div>
 </div>
 
 
+  <div class="container-fluid purple">
+    <div class="container">
 
-
+{% include signup.html %}
+</div>
+</div>
 
 
 

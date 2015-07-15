@@ -1,0 +1,19 @@
+ <a href="/"> <img src="/img/wendys.jpg" class="img-responsive"></a>
+        {% include about.html %}
+        {% include social.html %}
+  
+        <li class="widget instafeed">
+     
+        <div class="blog-index">  
+        <h4>Blog Archive</h3>
+          <ul class="sux">
+          {% for post in site.posts %}
+            <li class>
+              <a href="{{ post.url }}" class="purple-font">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+  
+ <h4 class="title">Instagram</h3>
+      <div class="widget-content clearfix" id="instafeed"></div>
+    </li>
