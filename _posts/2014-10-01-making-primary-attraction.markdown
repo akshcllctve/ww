@@ -8,13 +8,13 @@ tags: breakfast goop
 
 
 
-<img class="img-responsive" src="/img/t1.jpg">
+<img src="/img/t1.jpg">
 
 <p>
 Jelly beans lollipop cookie bear claw jelly-o bear claw. Apple pie carrot cake oat cake tootsie roll gummies tootsie roll. Macaroon chocolate sesame snaps jelly beans apple pie croissant. Tart danish bonbon. Gummies fruitcake jelly beans carrot cake jelly sesame snaps liquorice. Cake chupa chups cake pie pie tiramisu powder carrot cake. Carrot cake jelly-o soufflé cotton candy macaroon pastry soufflé. Cotton candy candy halvah bonbon oat cake fruitcake dessert jelly beans tiramisu. Cotton candy powder lollipop liquorice dragée bear claw. Gummi bears bear claw pastry donut cookie. Tiramisu pudding cheesecake dragée chocolate bar candy. Danish donut gummies. Gummi bears icing danish ice cream chocolate cake croissant chupa chups. 
 
 </p>
-<img class="img-responsive" src="/img/t2.jpg">
+<img src="/img/t2.jpg">
 
 <p>
 
