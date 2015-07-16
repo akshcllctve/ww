@@ -420,17 +420,7 @@ color: #545353;
 
 
 
-.input-field {
- height: 46px;
-  padding: 5px 5px 5px 18px;
-  margin: 5px;
-  font-size: 22px;
-  line-height: 1.33;
-  border-radius: 6px;
-  color: #222;
 
-
-}
 
 
 .big {
@@ -520,6 +510,19 @@ li {
   
 }
 
+/* ipad */
+@media only screen and (max-width: 1200px) {
+.white-font {
+  font-size: 15px;
+}
+.input-field {
+  font-size: 15px;
+width: 150px;
+}
+.btn-pink {
+  font-size: 15px;
+}
+}
 /* mobile */
 
 @media only screen and (max-width: 767px) {
