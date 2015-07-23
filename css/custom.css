@@ -34,6 +34,9 @@ img {
   margin: 0 !important;
 }
 
+.right {
+  text-align: right;
+}
 
 .social a {
 color: #ffffff;
@@ -276,7 +279,7 @@ background-color: #f5fb15;
   color:#ff0056;
 }
 .blue-font {
-  color: #5A26FF;
+  color: #36649d;
 }
 .purple-font {
   color: #a7a7a7;
