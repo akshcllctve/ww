@@ -1,6 +1,6 @@
 ---
 layout: default
-title: wendy's blog
+title: Willy
 description: Food, Travel, Fashion, Making
 ---
 
@@ -11,37 +11,24 @@ description: Food, Travel, Fashion, Making
 
  
 <div class="container-fluid white">
+   <a href="/"> <img src="/img/main.jpg" class="img-responsive"></a>
   <div class="container">
     <div class="row">
             <div class="col-sm-1"></div>
-      <div class="col-sm-7 col-sm-push-3 white padded-med">
-
-
-         {% for post in site.posts limit:1%}
-         
-    
-           <li>
-             <h1 class="posttitle title">{{ post.title }}</h1>
-              <small>Published {{ post.date | date: '%B %d, %Y' }} by Wendy Sorquist</small>
-
-
-  {% for tags in post.tags %}
-  <a href="{{ site.baseurl }}/tag/{{ tags }}/"><span class="lead">#{{ tags }}</span></a>
-  {% endfor %}
-                {{ post.content }}
-              <a href="{{ post.url }}#share" class="black-font">Click to share and comment</a>
-              </li>
-              
-              
-                  {% endfor %}
-
-      </div>
-      <div class="col-sm-3 col-sm-pull-7 padded-med">
+     
+      <div class="col-sm-3 padded-med">
       {% include sidebar.html %}
+
+      <a href="https://www.eventjoy.com/e/wwa-3672532"><img src="https://www.eventjoy.com/images/buy-tickets-long-button.png" style="width:200px" /></a>
 
 
 
         </div>
+         <div class="col-sm-7 white padded-med">
+
+<div id="eventjoy"><script type="text/javascript" src="https://www.eventjoy.com/w/ticket-embed.min.js?id=3672532"></script><a href="https://www.eventjoy.com?ref=ejw" target="_blank" style="display:block;font-size:10px;opacity:0.5;padding:0 5px 5px 5px">Online ticketing powered by Eventjoy</a></div>
+
+      </div>
       </div>
     </div>
   </div>

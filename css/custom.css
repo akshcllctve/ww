@@ -27,6 +27,9 @@ img {
   width: calc(100% / 2 - 6px);
 }
 
+#eventjoy {
+  min-height: 2000px;
+}
 #instafeed a img {
   width: 100%;
   height: auto;
